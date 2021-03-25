@@ -1,0 +1,59 @@
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#container > #left{
+    background-color: white;
+    width: 46%;
+    margin-left: 1%;
+}
+
+#right{
+    background-color:cadetblue;
+    width: 46%;
+    margin-right: 1%;
+}
+
+#container > #right > form{
+    padding: 20px;
+}
+
+input{
+    margin-top: 1%;
+    width: 95%;
+    padding: 1%;
+    border-radius: 5%;
+    color: gray;
+}
+
+input:focus{
+    background-color: yellow;
+    color: black;
+}
+
+input[name="fcolor"]{
+    display: inline-flex;
+    width: 49%;
+}
+
+label{
+    margin-top: 4%;
+    display: block;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label[for="fcolor"]{
+    display: inline-flex;
+    width: 45%;
+}
+
+button[id="reset"], button[id="submitForm"]{
+    margin-top: 4%;
+    border-radius: 12px;
+    padding: 7px 0px;
+    width: 45%;
+    background-color: white;
+}

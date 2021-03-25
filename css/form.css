@@ -1,0 +1,18 @@
+.valid{
+    background-color:yellowgreen;
+}
+
+.invalid {
+    background-color: tomato;
+}
+
+.standard {
+    background-color: white;
+}
+
+#confirmation, #errors, #errors > li {
+    background-color: transparent;
+    color: white;
+    list-style: circle;
+    margin-left: 10%;
+}
